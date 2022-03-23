@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(156, 56, 56);
+}
+header{
+    background-color: white;
+    color: rgb(60, 131, 131);
+    text-align:right;
+    /* display: inline-flex; */
+}
+header h1{
+    text-align: left;
+}
+nav ul{
+    margin-right: 55px;
+
+}
+header nav ul li{
+    display :inline-flex;
+}
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    margin: 1vh 3vw
+}
+.container{
+    text-align: center;
+    padding-top: 40vh;
+}
+.btn{
+    margin-top:12px ;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 24vw;
+    height: 4vh;
+}
+.btn:hover{
+    margin-top:12px ;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 25vw;
+    height: 4.5vh;
+    font-weight: 600;
+}
