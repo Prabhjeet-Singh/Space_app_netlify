@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Roboto:ital,wght@1,300&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Baloo+2&display=swap');
+
+:root {
+   --main-bg-color: rgb(107, 100, 170);
+   --font-1: 'Rubik Wet Paint', cursive;
+   --font-2: 'Roboto', sans-serif;
+   --font-3: 'Asap Condensed', sans-serif;
+   --font-3: '', sans-serif;
+}
+
+.font1 {
+   font-family: var(--font-1);
+}
+
+.font2 {
+   font-family: var(--font-2);
+}
+
+.font3 {
+   font-family: var(--font-3);
+}
+
+.max-width-1 {
+   max-width: 80vw;
+}
+
+.max-width-2 {
+   max-width: 60vw;
+}
+
+.m-auto {
+   margin: auto;
+}
+.my-2{
+   margin-top: 12px ;
+   margin-bottom: 12px;
+}
+
+.btn {
+   padding: 3px 5px;
+   border: 2px solid black;
+   border-radius: 5px;
+   cursor: pointer;
+   padding-top: 4px;
+   font-family: var(--font-2);
+   /* justify-self: center; */
+   transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+   color: white;
+   background-color:#3255b6;
+}
+
+.form-input {
+   padding: 3px 5px;
+   font-size: 16px;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin: 0 10px;
+   font-family: var(--font-2);
+
+}
+.form-box input ,textarea{
+ width: 44vw;
+ padding: 10px 6px;
+ border: 2px solid #3255b6;
+ border-radius: 10px;
+ margin-top: 7px;
+ font-family: var(--font-2);
+ font-size: 18px;
+}
+textarea{
+   font-size: 20px;
+}

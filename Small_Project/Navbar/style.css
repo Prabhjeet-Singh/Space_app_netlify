@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: aliceblue; */
+}
+header{
+    border: 1px  outset whitesmoke;
+    height: 4rem;
+    /* margin-top:1.5em; */
+    padding-top: 1.5em;
+
+}
+
+nav{
+    display: inline-flex;
+    width: 100vw;
+    /* flex-direction: row; */
+    
+}
+h1{
+    position: relative;
+    /* left: -4em; */
+    margin-left:1em;
+    justify-content: center;
+}
+ul{
+    text-decoration: none; 
+    list-style: none;
+    display: inline-flex;
+    margin-top: 0.35em;
+}
+li a{
+    margin:8px ;
+}
+img{
+    height: 4em;
+    width: 8em;
+    position: absolute;
+    right: 0.1em;
+}
+
+.container{
+    height: 100vh;
+    background-color: aliceblue;
+    
+}
